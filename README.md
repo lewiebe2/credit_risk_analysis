@@ -52,10 +52,6 @@ Six machine learning models were built using the LoanStats_2019Q1.csv dataset. T
 
 ## **Summary** 
 
+The resampling models may not be the best for predicting credit risk because the models' balanced accuracy scores are all less than 0.70 which is low, and the precision and recall scores are not good enough to state that the model will be good at classifying high credit risk. 
 
-
-precision is a measure of how reliable a positive classification is
-
-Sensitivity is a measure of how many people who actually have cancer were correctly diagnosed.
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+The ensemble classifier models performed much better with balanced accuracy scores greater than 0.75, better precision scores, and strong recall scores over 0.70. The easy ensemble AdaBoost classifier model is a very strong predictor of high credit risk with all scores greater than 0.90. Of the six models, the easy ensemble AdaBoost classifier model should be used.
