@@ -51,4 +51,11 @@ Six machine learning models were built using the LoanStats_2019Q1.csv dataset. T
   ![](Results_Images/EasyEnsembleClassifier_results.PNG)
 
 ## **Summary** 
+
+
+
+precision is a measure of how reliable a positive classification is
+
+Sensitivity is a measure of how many people who actually have cancer were correctly diagnosed.
+
 Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
